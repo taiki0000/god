@@ -10,6 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func openQRReader(_ sender: Any) {
+//        let vc = QRReaderViewController()
+//        self.present(vc, animated: true, completion: nil)
+        let sb = UIStoryboard(name: QRReaderViewController.className, bundle: nil)
+        let vc = sb.instantiateInitialViewController()!
+        self.present(vc, animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
