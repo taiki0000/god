@@ -17,6 +17,11 @@ class QRReaderViewController: UIViewController {
             qrReader.delegate = self
         }
     }
+    
+    @IBAction func tapCloseBtn(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     override func viewWillAppear(_ animated: Bool) {
         if !qrReader.session.isRunning {
             qrReader.session.startRunning()

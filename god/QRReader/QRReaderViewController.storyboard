@@ -66,6 +66,9 @@
                     <navigationItem key="navigationItem" title="アドレス入力" id="GBs-YD-oMI">
                         <barButtonItem key="leftBarButtonItem" title="✖️" id="kX5-n5-5vu">
                             <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="tapCloseBtn:" destination="KbC-VJ-op8" id="I6g-Sa-zMY"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
