@@ -10,10 +10,15 @@ import UIKit
 
 class AViewController: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let image = UIImage(named: "Adventures-through-Japan2rs800")
+        
+        // Image Viewに画像を設定
+        imageView.image = image
     }
 
 }

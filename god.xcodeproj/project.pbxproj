@@ -22,6 +22,7 @@
 		F712758B21037BFC00A66B6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F712758921037BFC00A66B6A /* LaunchScreen.storyboard */; };
 		F712759621037BFC00A66B6A /* godTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F712759521037BFC00A66B6A /* godTests.swift */; };
 		F71275A121037BFC00A66B6A /* godUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71275A021037BFC00A66B6A /* godUITests.swift */; };
+		F7A0231E21043E65003E0C4B /* Adventures-through-Japan2rs800.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7A0231D21043E65003E0C4B /* Adventures-through-Japan2rs800.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		F712759C21037BFC00A66B6A /* godUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = godUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F71275A021037BFC00A66B6A /* godUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = godUITests.swift; sourceTree = "<group>"; };
 		F71275A221037BFC00A66B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7A0231D21043E65003E0C4B /* Adventures-through-Japan2rs800.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Adventures-through-Japan2rs800.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				751003FA2103A7C90034F00E /* AViewController.swift */,
+				F7A0231D21043E65003E0C4B /* Adventures-through-Japan2rs800.jpg */,
 				751003FC2103A7D70034F00E /* AViewController.storyboard */,
 			);
 			path = A;
@@ -291,6 +294,7 @@
 				F712758621037BFA00A66B6A /* Main.storyboard in Resources */,
 				751004002103A83C0034F00E /* BViewController.storyboard in Resources */,
 				751003F3210397D30034F00E /* QRReaderViewController.storyboard in Resources */,
+				F7A0231E21043E65003E0C4B /* Adventures-through-Japan2rs800.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,15 +498,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NAPUFEK34B;
+				DEVELOPMENT_TEAM = GS68A638AG;
 				INFOPLIST_FILE = god/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = freedom.god;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taiki.godhjbft;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -512,15 +518,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NAPUFEK34B;
+				DEVELOPMENT_TEAM = GS68A638AG;
 				INFOPLIST_FILE = god/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = freedom.god;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taiki.godhjbft;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

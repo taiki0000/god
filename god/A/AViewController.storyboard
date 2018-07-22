@@ -24,6 +24,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G8O-i9-5Zt">
+                                <rect key="frame" x="67" y="116" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -32,6 +36,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="RVI-fI-bF3"/>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="G8O-i9-5Zt" id="p8H-z7-CgZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tag-Ib-TBg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
