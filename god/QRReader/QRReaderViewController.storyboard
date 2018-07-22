@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Mgh-9Z-7eZ">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--アドレス入力-->
+        <scene sceneID="2Co-6D-Zdh">
+            <objects>
+                <viewController id="KbC-VJ-op8" customClass="QRReaderViewController" customModule="god" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NPg-pj-TzV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ypg-0X-sq8" customClass="QRReaderView" customModule="god" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="142" width="375" height="486"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nre-gm-1tE">
+                                <rect key="frame" x="0.0" y="88" width="375" height="54"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="QRコードを読み込んでください" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wtp-iA-lJb">
+                                        <rect key="frame" x="63" y="16.666666666666671" width="249" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Wtp-iA-lJb" firstAttribute="centerX" secondItem="nre-gm-1tE" secondAttribute="centerX" id="1Dd-AU-TFl"/>
+                                    <constraint firstItem="Wtp-iA-lJb" firstAttribute="centerY" secondItem="nre-gm-1tE" secondAttribute="centerY" id="CWa-Pe-VIe"/>
+                                    <constraint firstAttribute="height" constant="54" id="Sab-gb-drv"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rXi-zb-F7J">
+                                <rect key="frame" x="0.0" y="628" width="375" height="150"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="2R4-ue-mfB"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="rXi-zb-F7J" firstAttribute="trailing" secondItem="pJu-In-b5R" secondAttribute="trailing" id="0vA-nJ-Hj0"/>
+                            <constraint firstItem="rXi-zb-F7J" firstAttribute="bottom" secondItem="pJu-In-b5R" secondAttribute="bottom" id="BlM-Jr-XFS"/>
+                            <constraint firstItem="ypg-0X-sq8" firstAttribute="trailing" secondItem="pJu-In-b5R" secondAttribute="trailing" id="CIT-NN-Il2"/>
+                            <constraint firstItem="rXi-zb-F7J" firstAttribute="leading" secondItem="pJu-In-b5R" secondAttribute="leading" id="Mdy-8w-zf2"/>
+                            <constraint firstItem="nre-gm-1tE" firstAttribute="leading" secondItem="pJu-In-b5R" secondAttribute="leading" id="SJD-mh-g8H"/>
+                            <constraint firstItem="nre-gm-1tE" firstAttribute="trailing" secondItem="pJu-In-b5R" secondAttribute="trailing" id="SjQ-Re-Sjz"/>
+                            <constraint firstItem="nre-gm-1tE" firstAttribute="top" secondItem="pJu-In-b5R" secondAttribute="top" id="TYW-Fz-9XR"/>
+                            <constraint firstItem="rXi-zb-F7J" firstAttribute="centerX" secondItem="NPg-pj-TzV" secondAttribute="centerX" id="Unx-yM-4X9"/>
+                            <constraint firstItem="rXi-zb-F7J" firstAttribute="top" secondItem="ypg-0X-sq8" secondAttribute="bottom" id="VG1-l8-cHT"/>
+                            <constraint firstItem="ypg-0X-sq8" firstAttribute="top" secondItem="nre-gm-1tE" secondAttribute="bottom" id="ap4-Cy-VJW"/>
+                            <constraint firstItem="ypg-0X-sq8" firstAttribute="leading" secondItem="pJu-In-b5R" secondAttribute="leading" id="ymo-9e-BQO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="pJu-In-b5R"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="アドレス入力" id="GBs-YD-oMI">
+                        <barButtonItem key="leftBarButtonItem" title="✖️" id="kX5-n5-5vu">
+                            <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="tapCloseBtn:" destination="KbC-VJ-op8" id="I6g-Sa-zMY"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="qrReader" destination="ypg-0X-sq8" id="HFH-7e-LdP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WWt-o5-uZC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1103.2" y="134.48275862068965"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="qxn-I1-5zQ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Mgh-9Z-7eZ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8xu-Og-u8s">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="KbC-VJ-op8" kind="relationship" relationship="rootViewController" id="Bhk-pV-LVr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AiY-iD-xLu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="160.80000000000001" y="134.48275862068965"/>
+        </scene>
+    </scenes>
+</document>
