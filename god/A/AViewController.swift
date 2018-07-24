@@ -15,7 +15,7 @@ class AViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        let image = UIImage(named: "Adventures-through-Japan2rs800")
+        let image = UIImage(named: "ok")
         
         // Image Viewに画像を設定
         imageView.image = image

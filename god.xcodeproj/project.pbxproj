@@ -22,7 +22,11 @@
 		F712758B21037BFC00A66B6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F712758921037BFC00A66B6A /* LaunchScreen.storyboard */; };
 		F712759621037BFC00A66B6A /* godTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F712759521037BFC00A66B6A /* godTests.swift */; };
 		F71275A121037BFC00A66B6A /* godUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71275A021037BFC00A66B6A /* godUITests.swift */; };
+		F72C16012106E2CC00C6FBAC /* 4541c4878be226bfd39ce02fde6eef8a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F72C16002106E2CC00C6FBAC /* 4541c4878be226bfd39ce02fde6eef8a.jpg */; };
 		F7A0231E21043E65003E0C4B /* Adventures-through-Japan2rs800.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7A0231D21043E65003E0C4B /* Adventures-through-Japan2rs800.jpg */; };
+		F7CB119C2104435000B941C0 /* Adventures-through-Japan2rs800.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7CB119B2104435000B941C0 /* Adventures-through-Japan2rs800.jpg */; };
+		F7CB119E210444D300B941C0 /* ok.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7CB119D210444D300B941C0 /* ok.jpg */; };
+		F7CB11A02104468C00B941C0 /* no.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7CB119F2104468C00B941C0 /* no.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +68,11 @@
 		F712759C21037BFC00A66B6A /* godUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = godUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F71275A021037BFC00A66B6A /* godUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = godUITests.swift; sourceTree = "<group>"; };
 		F71275A221037BFC00A66B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F72C16002106E2CC00C6FBAC /* 4541c4878be226bfd39ce02fde6eef8a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4541c4878be226bfd39ce02fde6eef8a.jpg; sourceTree = "<group>"; };
 		F7A0231D21043E65003E0C4B /* Adventures-through-Japan2rs800.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Adventures-through-Japan2rs800.jpg"; sourceTree = "<group>"; };
+		F7CB119B2104435000B941C0 /* Adventures-through-Japan2rs800.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Adventures-through-Japan2rs800.jpg"; sourceTree = "<group>"; };
+		F7CB119D210444D300B941C0 /* ok.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ok.jpg; sourceTree = "<group>"; };
+		F7CB119F2104468C00B941C0 /* no.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = no.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				751003FA2103A7C90034F00E /* AViewController.swift */,
+				F7CB119D210444D300B941C0 /* ok.jpg */,
 				F7A0231D21043E65003E0C4B /* Adventures-through-Japan2rs800.jpg */,
 				751003FC2103A7D70034F00E /* AViewController.storyboard */,
 			);
@@ -116,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				751003FF2103A83C0034F00E /* BViewController.storyboard */,
+				F7CB119F2104468C00B941C0 /* no.jpg */,
 				751004012103A8480034F00E /* BViewController.swift */,
 			);
 			path = B;
@@ -158,9 +168,11 @@
 				751003F82103A79D0034F00E /* QRReader */,
 				F712758021037BFA00A66B6A /* AppDelegate.swift */,
 				F712758221037BFA00A66B6A /* ViewController.swift */,
+				F7CB119B2104435000B941C0 /* Adventures-through-Japan2rs800.jpg */,
 				F712758421037BFA00A66B6A /* Main.storyboard */,
 				F712758721037BFC00A66B6A /* Assets.xcassets */,
 				F712758921037BFC00A66B6A /* LaunchScreen.storyboard */,
+				F72C16002106E2CC00C6FBAC /* 4541c4878be226bfd39ce02fde6eef8a.jpg */,
 				F712758C21037BFC00A66B6A /* Info.plist */,
 			);
 			path = god;
@@ -288,13 +300,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7CB11A02104468C00B941C0 /* no.jpg in Resources */,
 				F712758B21037BFC00A66B6A /* LaunchScreen.storyboard in Resources */,
 				F712758821037BFC00A66B6A /* Assets.xcassets in Resources */,
 				751003FD2103A7D70034F00E /* AViewController.storyboard in Resources */,
 				F712758621037BFA00A66B6A /* Main.storyboard in Resources */,
+				F7CB119E210444D300B941C0 /* ok.jpg in Resources */,
 				751004002103A83C0034F00E /* BViewController.storyboard in Resources */,
 				751003F3210397D30034F00E /* QRReaderViewController.storyboard in Resources */,
+				F7CB119C2104435000B941C0 /* Adventures-through-Japan2rs800.jpg in Resources */,
 				F7A0231E21043E65003E0C4B /* Adventures-through-Japan2rs800.jpg in Resources */,
+				F72C16012106E2CC00C6FBAC /* 4541c4878be226bfd39ce02fde6eef8a.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
