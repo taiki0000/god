@@ -18,11 +18,23 @@ class ViewController: UIViewController {
         self.present(vc, animated: true, completion: nil)
     }
     
+    @IBOutlet weak var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        // バンドルした画像ファイルを読み込み
+        let image = UIImage(named: "Adventures-through-Japan2rs800")
+        
+        // Image Viewに画像を設定
+        imageView.image = image
     }
-
+    
+    
+    
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
